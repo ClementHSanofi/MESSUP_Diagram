@@ -52,9 +52,14 @@ Modélise les **entités métier** de l'application, leurs **attributs**, **rela
 
 ---
 
-### 7. Diagrammes de base de données (`dbDiagram`)
-Représentent la structure des **tables**, **relations**, **clés**, et **types** utilisés dans l’application.
+### 7. Diagramme de base de données (`dbDiagram`)
+Représente la structure des **tables**, **relations**, **clés**, et **types** utilisés dans l’application.
 
 🔗 [Voir le schéma de base de données](https://dbdiagram.io/d/MESSUP_MPD-6908776b6735e11170f2873d)
 
 ---
+
+### 8. Diagramme Gantt (`ganttDiagram`) 
+Met en visuel une estimation de la durée de développement de la version 1 de l'application. Le timing ont été pensé avec le rythme d'alternance du développeur.
+
+🔗 [Voir le diagramme de Gantt](diagrams/ganttDiagram.md)
