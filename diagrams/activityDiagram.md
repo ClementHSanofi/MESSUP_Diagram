@@ -1,13 +1,28 @@
 ```mermaid
 flowchart TD
-    Start([Start])
-    Step1[Étape 1 : Créer ticket]
-    Step2[Étape 2 : Analyse ticket]
-    Decision{Ticket complet ?}
-    Step3[Étape 3 : Traitement]
-    Step4[Étape 4 : Livraison]
-    End([Fin])
+Start([Début]) --> Create[Utilisateur crée un ticket]
+Create --> Notify1[Notification Support MES]
+Notify1 --> Review{Revue initiale}
 
-    Start --> Step1 --> Step2 --> Decision
-    Decision -- Oui --> Step3 --> Step4 --> End
-    Decision -- Non --> Step1
+Review -->|Incomplet| Clarify[Demande clarification]
+Clarify --> Wait[Attente réponse utilisateur]
+Wait --> Response[Utilisateur répond]
+Response --> Review
+
+Review -->|Complet| Analyze[Analyse et évaluation du ticket]
+Analyze --> Associate[Association à une livraison]
+Associate --> Plan{Planification}
+
+Plan -->|Urgent| Priority[Traitement prioritaire]
+Plan -->|Normal| Queue[File d'attente normale]
+
+Priority --> Dev[Développement]
+Queue --> Dev
+
+Dev --> Test[Tests]
+Test --> Deploy{Déploiement OK?}
+
+Deploy -->|Non| Dev
+Deploy -->|Oui| Deploy2(Déploiement)
+
+Deploy2 --> Fin([Fin])
