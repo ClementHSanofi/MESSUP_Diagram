@@ -24,20 +24,28 @@ Modélise les **états d’un ticket** et les **transitions possibles** en fonct
 
 ---
 
-### 3. Diagramme de séquence (`sequenceDiagram`)
+### 3. Diagramme d'activité (`activityDiagram`)
+Représente le workflow métier d'un processus. Il permet de visualiser les différentes étapes, décisions et transitions
+
+🔗 [Voir le diagramme d'activité](./diagrams/activityDiagram.md)
+
+---
+
+### 4. Diagramme de séquence (`sequenceDiagram`)
 Illustre **le flux d'interaction** entre les composants de l'application. Il permet de visualiser comment les données circulent entre l’utilisateur, l’interface (frontend), le serveur (backend) et la base de données.
 
 🔗 [Voir le diagramme de sequence](./diagrams/sequenceDiagram.md)
 
 ---
-### 4. Diagramme de classe (`classDiagram`)
+
+### 6. Diagramme de classe (`classDiagram`)
 Modélise les **entités métier** de l'application, leurs **attributs**, **relations** et présentes leurs **méthodes** associées.
 
 🔗 [Voir le diagramme de classe](./diagrams/classDiagram.md)
 
 ---
 
-### 10. Diagrammes de base de données (`dbDiagram`)
+### 7. Diagrammes de base de données (`dbDiagram`)
 Représentent la structure des **tables**, **relations**, **clés**, et **types** utilisés dans l’application.
 
 🔗 [Voir le schéma de base de données](https://dbdiagram.io/d/MESSUP_MPD-6908776b6735e11170f2873d)
