@@ -1,9 +1,9 @@
 ```mermaid
 sequenceDiagram
-participant U as Utilisateur@{ "type" : "actor" }
-participant F as Frontend@{ "type" : "boundary" }
-participant B as Backend@{ "type" : "control" }
-participant BDD as Base de donnée@{ "type" : "database" }
+participant U as Utilisateur
+participant F as Frontend
+participant B as Backend
+participant BDD as Base de donnée
 
 
 U->>F: Soumet un ticket
