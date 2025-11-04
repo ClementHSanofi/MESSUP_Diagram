@@ -10,17 +10,24 @@ Les diagrammes sont réalisés avec [Mermaid](https://mermaid.js.org/), un langa
 
 ## 📚 Liste des diagrammes
 
-### 1. Diagrammes de cas d'utilisation (`useCaseDiagram`)
-Définissent les interactions entre les **acteurs** (Utilisateur, Support MES, Administrateur) et les **fonctionnalités** du système.
+### 1. Diagramme de cas d'utilisation (`useCaseDiagram`)
+Définis les interactions entre les **acteurs** (Utilisateur, Support MES, Administrateur) et les **fonctionnalités** du système.
 
 🔗 [Voir le diagramme des cas d'utilisation](./diagrams/useCaseDiagram.md) 
 
 ---
 
-### 2. Diagrammes d'état (`stateDiagram`)
-Modélisent les **états d’un ticket** et les **transitions possibles** en fonction des actions ou décisions métier.
+### 2. Diagramme d'état (`stateDiagram`)
+Modélise les **états d’un ticket** et les **transitions possibles** en fonction des actions ou décisions métier.
 
-🔗 [Voir le diagramme d'état des tickets](./diagrams/stateDiagram.md)
+🔗 [Voir le diagramme d'état](./diagrams/stateDiagram.md)
+
+---
+
+### 3. Diagramme de séquence
+Illustre **le flux d'interaction** entre les composants de l'application. Il permet de visualiser comment les données circulent entre l’utilisateur, l’interface (frontend), le serveur (backend) et la base de données.
+
+🔗 [Voir le diagramme de sequence](./diagrams/sequenceDiagram.md)
 
 ---
 
