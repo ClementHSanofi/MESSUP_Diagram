@@ -30,6 +30,12 @@ Illustre **le flux d'interaction** entre les composants de l'application. Il per
 🔗 [Voir le diagramme de sequence](./diagrams/sequenceDiagram.md)
 
 ---
+### 4. Diagramme de classe (`classDiagram`)
+Modélise les **entités métier** de l'application, leurs **attributs**, **relations** et présentes leurs **méthodes** associées.
+
+🔗 [Voir le diagramme de classe](./diagrams/classDiagram.md)
+
+---
 
 ### 10. Diagrammes de base de données (`dbDiagram`)
 Représentent la structure des **tables**, **relations**, **clés**, et **types** utilisés dans l’application.
