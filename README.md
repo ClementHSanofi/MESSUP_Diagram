@@ -24,7 +24,7 @@ Modélise les **états d’un ticket** et les **transitions possibles** en fonct
 
 ---
 
-### 3. Diagramme de séquence
+### 3. Diagramme de séquence (`sequenceDiagram`)
 Illustre **le flux d'interaction** entre les composants de l'application. Il permet de visualiser comment les données circulent entre l’utilisateur, l’interface (frontend), le serveur (backend) et la base de données.
 
 🔗 [Voir le diagramme de sequence](./diagrams/sequenceDiagram.md)
