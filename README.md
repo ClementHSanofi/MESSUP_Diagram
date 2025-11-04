@@ -38,6 +38,13 @@ Illustre **le flux d'interaction** entre les composants de l'application. Il per
 
 ---
 
+### 5. Diagramme de composant (`componentDiagram`)
+Montre l'architecture technique de l'application
+
+🔗 [Voir le diagramme de composant](./diagrams/componentDiagram.md)
+
+---
+
 ### 6. Diagramme de classe (`classDiagram`)
 Modélise les **entités métier** de l'application, leurs **attributs**, **relations** et présentes leurs **méthodes** associées.
 
