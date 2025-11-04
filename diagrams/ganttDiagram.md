@@ -6,8 +6,10 @@ gantt
     section Préparation
         Demande d'accès                     :c1, 22-09-2025, 63d
         Cahier des charges                  :c2, 07-10-2025, 20d
-        UML + définition endpoints API      :c3, 27-10-2025, 30d
-        Mise en place des environnements    :c4, 10-11-2025, 35d
+        UML + définition endpoints API      :c3, 27-10-2025, 14d
+        Users Stories                       :after c3, 7d
+        Maquettage                          :after c4, 31-12-2025
+        Mise en place des environnements    :c5, 27-10-2025, 35d
 
     section Développement 
         Apprentissage Python & FastAPI      :d1, 13-10-2025, 31-12-2025
