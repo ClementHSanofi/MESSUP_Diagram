@@ -5,7 +5,7 @@ Create --> Notify1[Notification Support MES]
 Notify1 --> Review{Revue initiale}
 
 Review -->|Incomplet| Clarify[Demande clarification]
-Clarify --> Wait[Attente réponse utilisateur]
+Clarify --> Wait[Attente réponse utilisateur ou expert MES]
 Wait --> Response[Utilisateur répond]
 Response --> Review
 
