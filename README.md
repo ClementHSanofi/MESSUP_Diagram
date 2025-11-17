@@ -63,3 +63,19 @@ Représente la structure des **tables**, **relations**, **clés**, et **types** 
 Met en visuel une estimation de la durée de développement de la version 1 de l'application. Le timing ont été pensé avec le rythme d'alternance du développeur.
 
 🔗 [Voir le diagramme de Gantt](diagrams/ganttDiagram.md)
+
+---
+
+## 📃 Liste des docs
+
+### 1. Endpoint
+Liste des endpoints de l'application : ce sont les URL qui exposent les différentes fonctionnalités de l'API.
+
+🔗 [Voir le fichier](docs/endpoint.md)
+
+---
+
+### 2. UserStories
+Liste de descriptions simples et centrées sur l'utilisateur qui expliquent les fonctionnalités attendues, en exprimant le besoin et la valeur ajoutée.
+
+🔗 [Voir le fichier](docs/userStories.md)
